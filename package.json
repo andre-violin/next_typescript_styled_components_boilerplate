@@ -1,0 +1,12 @@
+{
+  "name": "next_typescript_styled_components_boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andre-violin/next_typescript_styled_components_boilerplate.git",
+  "author": "André Violin <andre.violin@ifms.edu.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0"
+  }
+}
