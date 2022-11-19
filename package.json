@@ -6,11 +6,14 @@
   "author": "André Violin <andre.violin@ifms.edu.br>",
   "license": "MIT",
   "scripts": {
+    "check-format": "prettier --check .",
+    "format": "prettier --write .",
     "typecheck": "tsc --project tsconfig.json"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.9.3"
   }
 }
