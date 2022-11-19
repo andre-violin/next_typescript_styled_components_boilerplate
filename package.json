@@ -5,8 +5,12 @@
   "repository": "https://github.com/andre-violin/next_typescript_styled_components_boilerplate.git",
   "author": "André Violin <andre.violin@ifms.edu.br>",
   "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
-    "@commitlint/config-conventional": "^17.2.0"
+    "@commitlint/config-conventional": "^17.2.0",
+    "typescript": "^4.9.3"
   }
 }
